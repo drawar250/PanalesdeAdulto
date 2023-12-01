@@ -1,0 +1,85 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo del encabezado */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Estilo del título */
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Estilo del menú de navegación */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo de los enlaces del menú */
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Estilo del contenido principal */
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Estilo de los artículos */
+  article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Estilo de las imágenes de los artículos */
+  article img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo de los títulos de los artículos */
+  article h2 {
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  /* Estilo del pie de página */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  /* Estilo del boton de pago de MercadoPago */
+  .boton-mercadopago {
+      display: inline-block;
+        background-color: #009ee3;
+          color: blueviolet;
+            font-weight: bold;
+              font-size: 30px;
+                padding: 20px 30px;
+                  border-radius: 10px;
+                    text-decoration: none;
+                    }
+
+                    .boton-mercadopago:hover {
+                      background-color: #0084c4;
+                      }
+  

@@ -68,7 +68,7 @@ body {
   }
 
   /* Estilo del boton de pago de MercadoPago */
-  .boton {
+  .boton  {
       display: inline-block;
         background-color: #009ee3;
           color: blueviolet;
